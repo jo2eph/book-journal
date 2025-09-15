@@ -1,0 +1,14 @@
+/* Remove Browser Default Settings */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
