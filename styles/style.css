@@ -1,14 +1,51 @@
-/* Remove Browser Default Settings */
+/*
+Main CSS File
+*/
+
+/* REMOVE DEFAULT BROWSER SETTINGS */
 * {
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+/* GLOBAL VARIABLES, THEMES AND STYLES */
+:root {
+    /* MAIN THEME */
+    --main-intro-color: rgb(236, 236, 236);
+    --main-intro-font: "Varela", sans-serif;
+    --main-bg-color: rgb(240, 240, 240);
+    --main-text-color: rgb(30, 30, 30);
+    --secondary-bg-color: rgb(225, 225, 225);
+    --secondary-text-color: rgb(20, 20, 20);
+    --link-color: rgb(34, 63, 118);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cherry-bg-color);
+    color: var(--main-text-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.code {
+    background-color: rgba(200, 200, 200, 0.2);
+    border: 1px solid rgba(150, 150, 150, 0.3);
+    border-radius: 6px;
+    color: var(--main-text-color);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4px 6px;
+}

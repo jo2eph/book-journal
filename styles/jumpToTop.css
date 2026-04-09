@@ -1,0 +1,32 @@
+#jump-to-top {
+    background-color: var(--main-bg-color);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: var(--main-text-color);
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    font-size: 24px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.35s linear;
+    width: 50px;
+    z-index: 1000;
+}
+#jump-to-top a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#jump-to-top:hover {
+    background-color: #d9d9d9;
+}
