@@ -9,6 +9,7 @@ CSS for main page of book journal website
     gap: 20px;
     max-width: 1600px;
     margin: 24px auto;
+    margin-bottom: 56px;
     padding: 20px;
 }
 
@@ -37,8 +38,10 @@ CSS for main page of book journal website
 .book-title {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 10px 0 5px 0;
+    margin: 0 auto;
+    margin-top: 18px;
     text-align: center;
+    width: 87%;
 }
 .book-title a {
     text-decoration: none;
@@ -47,4 +50,11 @@ CSS for main page of book journal website
 .book-title a:hover {
     color: #007Bff;
     text-decoration: underline;
+}
+.date {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    text-align: center;
 }

@@ -24,23 +24,39 @@
     margin-bottom: 18px;
 }
 #intro-content p {
-    font-size: 1.5em;
+    font-size: 1.3em;
     max-width: 800px;
 }
 
 #intro #scroll-down {
     animation: bounce 2s infinite;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 5em;
+    background-color: rgb(12, 80, 95);
+    border: 1px solid black;
+    border-radius: 8px;
+    color: rgb(253, 253, 253);
+    font-size: 1.5em;
+    padding: 8px 24px;
     position: absolute;
-    bottom: 70px;
+    bottom: 120px;
     text-decoration: none;
     transition: all 0.35s linear;
     z-index: 10;
 }
 #intro #scroll-down:hover {
     animation: none;
+    background-color: rgb(90, 150, 215);
     color: rgba(255, 255, 255, 0.8);
-    font-size: 5.5em;
+    font-size: 1.6em;
     transition: all 0.3s ease-in-out;
+}
+
+#intro #intro-image {
+    flex: 1;
+    flex-basis: 30%;
+    
+}
+#intro #intro-image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
