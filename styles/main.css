@@ -2,18 +2,13 @@
 CSS for main page of book journal website
 */
 
-main {
-    background-color: rgb(249, 249, 249);
-}
-
 #books-container {
-    background-color: green;;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 24px auto;
     padding: 20px;
 }
 
@@ -29,12 +24,27 @@ main {
 }
 
 .book-cover {
-    width: 60px;
-    height: 90px;
+    width: 90%;
+    margin: 0 auto;
 }
 .book-cover img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     
+}
+
+.book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+.book-title a {
+    text-decoration: none;
+    color: #333;
+}
+.book-title a:hover {
+    color: #007Bff;
+    text-decoration: underline;
 }
