@@ -1,10 +1,12 @@
 #intro {
-    background-color: var(--main-bg-color);
-    background-position: center right;
+    background-image: url('../assets/geisel.JPG');
+    background-blend-mode: overlay;
+    background-color: rgba(219, 226, 222, 0.919);
+    background-position: center left;
     background-size: cover;
-    color: var(--main-color);
+    color: rgb(13, 26, 28);
     display: flex;
-    padding: 0 249px;
+    padding: 0 24px;
     font-family: 'Roboto', sans-serif;
     height: clamp(600px, 93vh, 1000px);
     width: 100%;
@@ -18,13 +20,17 @@
     height: 100%;
     text-align: center;
     padding: 0 20px;
+    margin: 0 auto;
 }
 #intro-content h1 {
+    color: rgb(44, 57, 71);
     font-size: 4.5em;
     margin-bottom: 18px;
 }
 #intro-content p {
-    font-size: 1.3em;
+    color: rgb(28, 63, 70);
+    font-size: 1.6em;
+    font-weight: bolder;
     max-width: 800px;
 }
 
@@ -56,7 +62,6 @@
 
 }
 #intro #intro-image img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+    aspect-ratio: 1;
+    height: 90%;
 }
