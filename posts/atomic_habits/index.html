@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Atomic Habits by James Clear</title>
     
-<!-- CSS
+    <!-- CSS
     ============================================== -->
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/animate.css">
-    <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/jumpToTop.css">
-    <link rel="stylesheet" href="../styles/intro.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/posts.css">
-    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/animate.css">
+    <link rel="stylesheet" href="../../styles/navbar.css">
+    <link rel="stylesheet" href="../../styles/jumpToTop.css">
+    <link rel="stylesheet" href="../../styles/intro.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/posts.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+
+    <link rel="stylesheet" href="./styles/style.css">
     
     <!-- ICON
     ============================================== -->
@@ -30,7 +32,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <script defer src="../scripts/load.js"></script>
+    <script defer src="../../scripts/load.js"></script>
     
     <!-- NAVIGATION MENU -->
     <nav id="navbar-container">
@@ -91,13 +93,69 @@
     </div>
 
     <main>
-        <h1>
-            Book Title
+        <h1 id="title">
+            Book Journal: Title by Author
         </h1>
+        <div id="info">
+            Joseph Lee | XXX XX, 20XX | X Minute Read
+            <br>
+            Updated: XXX XX, 20XX
+        </div>
 
-        <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, esse veritatis officia aut adipisci laboriosam inventore molestiae ex, obcaecati recusandae nisi earum, ipsam sapiente consectetur blanditiis maxime odit illo excepturi!
-        </article>
+        <div id="article-container">
+            <aside id="contents">
+                <h2>
+                    Contents
+                </h2>
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)">
+                            Section 1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            Section 2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            Section 3
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <article id="article">
+                <section id="section-1">
+                    <h2>
+                        Section 1
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis hic natus quos voluptatibus ad, mollitia non rerum delectus enim iste ea dolor impedit animi fuga. Dolorem nisi voluptates numquam temporibus.
+                    </p>
+                </section>
+
+                <section id="section-2">
+                    <h2>
+                        Section 2
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut accusantium dicta corporis cumque, id odit nisi veniam quibusdam perferendis eligendi ullam enim inventore facilis ut quaerat magni velit adipisci.
+                    </p>
+                </section>
+
+                <section id="section-3">
+                    <h2>
+                        Section 3
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum et fuga distinctio magnam commodi dolorem animi dolores, dolorum quae. Reiciendis maxime laborum cupiditate vero illum similique, quae doloribus quaerat mollitia!
+                    </p>
+                </section>
+            </article>
+
+        </div>
     </main>
 
     <footer id="footer">
@@ -121,8 +179,8 @@
         </div>
     </footer>
 
-    <script src="../scripts/script.js"></script>
-    <script src="../scripts/scrollToTop.js"></script>
-    <script src="../scripts/url.js"></script>
+    <script src="../../scripts/script.js"></script>
+    <script src="../../scripts/scrollToTop.js"></script>
+    <script src="../../scripts/url.js"></script>
 </body>
 </html>
