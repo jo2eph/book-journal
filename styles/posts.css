@@ -70,7 +70,7 @@ main {
 }
 
 #article {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(248, 248, 248);
     border: 1px solid rgba(156, 156, 156, 0.36);
     border-radius: 8px;
     margin: 0 auto;
@@ -84,6 +84,16 @@ main {
     border-bottom: 1px solid rgba(156, 156, 156, 0.36);
     margin-bottom: 32px;
     padding-bottom: 24px;
+}
+
+#book-image {
+    aspect-ratio: 2 / 3;
+    border: 1px solid rgba(160, 160, 160, 0.4);
+    border-radius: 8px;
+    display: block;
+    margin: 24px auto;
+    margin-bottom: 36px;
+    width: 56%;
 }
 
 
