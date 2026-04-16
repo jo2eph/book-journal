@@ -1,7 +1,15 @@
 # Book Journal
 
-> Note: Under development
+Book summaries & reflections on the books I read.
+
+Big ideas, key takeaways, and personal thoughts.
+
+Link: [Book Journal](https://jo2eph.github.io/book-journal/)
 
 ---
 
-This is where I store my notes and summaries of (non-fiction) books I've read.
+## Highlight Posts
+
+- Atomic Habits by James Clear
+- Never Split the Difference by Chris Voss
+- Think Again by Adam Grant
