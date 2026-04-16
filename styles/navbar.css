@@ -37,6 +37,19 @@ nav {
     text-decoration: none;
 }
 
+#bread-crumbs {
+    color: rgb(236, 236, 236);
+    font-size: 14px;
+    margin-left: 4px;
+    text-decoration: none;
+}
+.bread-crumb {
+    color: rgb(236, 236, 236);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 /*
 #navbar-center {
     text-align: center;
@@ -155,6 +168,10 @@ nav {
 
     #mobile-menu {
         display: block;
+    }
+
+    #bread-crumbs {
+        display: none;
     }
 }
 
